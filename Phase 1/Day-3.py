@@ -7,4 +7,4 @@ def Mean(Numbers):
 
 Numbers = [50, 60, 70, 80]
 
-print(f"The Mean Is: {Mean(Numbers)}")
+print(f"The Mean Is: {Mean(Numbers)}") 
