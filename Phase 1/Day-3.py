@@ -4,7 +4,6 @@ def Mean(Numbers):
     
     return Result
 
-    
 
 Numbers = [50, 60, 70, 80]
 
