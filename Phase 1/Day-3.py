@@ -12,10 +12,8 @@ def Process_Batch(Input_List, Weights, Bais):
         
     return results
 
-Data = []
+Data = [[1,1], [1,0], [0,1], [0,0]]
+Current_Weights = [0.5, 0.5]
+Current_Bias = - 0.7
 
-Current_Weights = []
-
-Current_Bais = []
-
-print(f"Batch Processing Results: {process_batch(data, current_weights, current_bias)}")
+print(f"Batch Processing Results: {Process_Batch(Data, Current_Weights, Current_Bias)}")
