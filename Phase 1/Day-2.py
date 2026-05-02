@@ -20,9 +20,9 @@ print(And_Gate(1, 0))
 
 def Or_Gate(Input1, Input2):
     
-    Wight1 = 0.5
-    Wight2 = 0.5
-    bias = -0.5
+    Wight1 = 0.3
+    Wight2 = 0.3
+    bias = -0.1
     
     Total_Signal = (Input1 * Wight1) + ( Input2 * Wight2) + bias
     
