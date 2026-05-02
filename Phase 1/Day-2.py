@@ -22,7 +22,7 @@ def Or_Gate(Input1, Input2):
     
     Wight1 = 0.5
     Wight2 = 0.5
-    bias = -0.7
+    bias = -0.5
     
     Total_Signal = (Input1 * Wight1) + ( Input2 * Wight2) + bias
     
@@ -32,8 +32,10 @@ def Or_Gate(Input1, Input2):
     else:
             return 0
         
-
+print("------------OR Gate-------------")
 print("Input (1, 1) -> Output:")
 print(Or_Gate(1, 1))
 print("Input (1, 0) -> Output:" )
 print(Or_Gate(1, 0))
+print("Input (1, 1) -> Output:")
+print(Or_Gate(0, 0))
