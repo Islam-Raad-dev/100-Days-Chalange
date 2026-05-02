@@ -1,11 +1,9 @@
 def Mean(Numbers):
     
-    Result = Numbers / len(Numbers)
+    Result = sum(Numbers) / len(Numbers)
     
     return Result
 
-
-    
     
 
 Numbers = [50, 60, 70, 80]
