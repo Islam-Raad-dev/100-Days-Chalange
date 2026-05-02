@@ -18,7 +18,7 @@ print(And_Gate(1, 1))
 print("Input (1, 0) -> Output:" )
 print(And_Gate(1, 0))
 
-def And_Gate(Input1, Input2):
+def Or_Gate(Input1, Input2):
     
     Wight1 = 0.5
     Wight2 = 0.5
@@ -34,6 +34,6 @@ def And_Gate(Input1, Input2):
         
 
 print("Input (1, 1) -> Output:")
-print(And_Gate(1, 1))
+print(Or_Gate(1, 1))
 print("Input (1, 0) -> Output:" )
-print(And_Gate(1, 0))
+print(Or_Gate(1, 0))
