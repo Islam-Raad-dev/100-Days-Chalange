@@ -8,6 +8,6 @@ def Check_Spam(Email_Text):
     return "Inbox"
 
 print (Check_Spam("اضغط هنا"))
-print (Check_Spam("ربح"))
+print (Check_Spam("ربح")) 
 print (Check_Spam("جائزة"))
 print (Check_Spam("مجاني"))
