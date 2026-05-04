@@ -3,7 +3,7 @@ def Check_Spam(Email_Text):
      
     for word in Spam_Words:
         if word in Email_Text:
-            return "spam"
+            return "spam" 
     
     return "Inbox"
 
